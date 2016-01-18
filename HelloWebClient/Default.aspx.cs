@@ -71,11 +71,11 @@ namespace HelloWebClient
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //HelloService.HelloServiceClient cl = new HelloService.HelloServiceClient("BasicHttpBinding_IHelloService");
-            //cl.UrlIsValid(url);          
+            HelloService.HelloServiceClient cl = new HelloService.HelloServiceClient("BasicHttpBinding_IHelloService");
+            cl.UrlIsValid(url);
 
-            //HelloService.HelloServiceClient client = new HelloService.HelloServiceClient("BasicHttpBinding_IHelloService");
-            //Label1.Text = client.ProcessDataAdd(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox5.Text, TextBox6.Text, url);
+            HelloService.HelloServiceClient client = new HelloService.HelloServiceClient("BasicHttpBinding_IHelloService");
+            Label1.Text = client.ProcessDataAdd(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox5.Text, TextBox6.Text, url);
 
             Label8.Text = url;
          //   BindData();

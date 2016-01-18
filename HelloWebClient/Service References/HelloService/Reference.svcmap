@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e79c5b68-2aa3-47b1-b8ff-76f4b1c8a8b4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="94a399d4-3a2b-4a47-b40c-9506749fb5db" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://pyraleads.diva-cloud.co.uk/HelloService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="HelloService.disco" MetadataType="Disco" ID="f8b178fc-dfc3-4e36-b79a-5b0798162513" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?disco" />
-    <MetadataFile FileName="HelloService.xsd" MetadataType="Schema" ID="ceaab258-93f7-4555-adf1-94191594d2c4" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?xsd=xsd1" />
-    <MetadataFile FileName="HelloService.wsdl" MetadataType="Wsdl" ID="975321bf-7f85-43eb-a67d-9b50e2c0afa4" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?wsdl" />
-    <MetadataFile FileName="HelloService1.xsd" MetadataType="Schema" ID="226fc1e4-a605-47ad-b71c-167a875b0970" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?xsd=xsd0" />
-    <MetadataFile FileName="HelloService1.wsdl" MetadataType="Wsdl" ID="580012f8-ce14-4d09-b104-fd4bec07d692" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="HelloService.disco" MetadataType="Disco" ID="5d0829cd-6ca1-495d-8438-a772c00e5ffd" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?disco" />
+    <MetadataFile FileName="HelloService.xsd" MetadataType="Schema" ID="d9b2242a-a2bf-46bd-8930-fc3c2166041d" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HelloService.wsdl" MetadataType="Wsdl" ID="0bdd145c-1ff1-4eb2-8c11-9bde0f576cbd" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?wsdl" />
+    <MetadataFile FileName="HelloService1.xsd" MetadataType="Schema" ID="34d78fb5-a22e-45f9-8b78-23d6fe853723" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HelloService1.wsdl" MetadataType="Wsdl" ID="ee3c8ae3-7f16-4664-a8f7-371249a0fe3d" SourceId="1" SourceUrl="http://pyraleads.diva-cloud.co.uk/HelloService.svc?wsdl=wsdl0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
