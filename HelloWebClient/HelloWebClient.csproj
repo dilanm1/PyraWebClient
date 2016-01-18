@@ -74,7 +74,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="frmAddData.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Web.config" />
     <None Include="Service References\HelloService\HelloService.wsdl" />
     <None Include="Service References\HelloService\HelloService.xsd">
@@ -92,12 +92,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="frmAddData.aspx.cs">
-      <DependentUpon>frmAddData.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmAddData.aspx.designer.cs">
-      <DependentUpon>frmAddData.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

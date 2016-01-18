@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmAddData.aspx.cs" Inherits="HelloWebClient.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HelloWebClient.WebForm1" %>
 
 <!DOCTYPE html>
 
